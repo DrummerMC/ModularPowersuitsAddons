@@ -28,7 +28,7 @@ public class AppEngWirelessModule extends PowerModuleBase implements IRightClick
     public AppEngWirelessModule(List<IModularItem> validItems) {
         super(validItems);
         addInstallCost(MuseItemUtils.copyAndResize(ItemComponent.controlCircuit, 1));
-        wirelessTerminal = GameRegistry.findItemStack("appliedenergistics2", "itemWirelessTerminal", 1);;
+        wirelessTerminal = GameRegistry.findItemStack("appliedenergistics2", "itemWirelessTerminal", 1);
         addInstallCost(wirelessTerminal);
 
     }
